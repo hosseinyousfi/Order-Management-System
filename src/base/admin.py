@@ -421,6 +421,6 @@ class FactorAdmin(admin.ModelAdmin):
             ]
 
 # Admin UI Customization
-admin.site.site_header = "مدیریت چاپخانه باوی"
-admin.site.site_title = "پنل مدیریت چاپخانه باوی"
-admin.site.index_title = "به پنل مدیریت چاپخانه باوی خوش آمدید"
+admin.site.site_header = "مدیریت چاپخانه"
+admin.site.site_title = "پنل مدیریت چاپخانه"
+admin.site.index_title = "به پنل مدیریت چاپخانه خوش آمدید"

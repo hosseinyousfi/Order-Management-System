@@ -200,7 +200,7 @@ def generate_factor_pdf(modeladmin, request, queryset):
 
         # کانون تبلیغاتی... (عنوان اصلی)
         p.setFont("IranSans", 16)
-        main_title_text = get_farsi_text("کانون تبلیغاتی فرهنگی هنری ایده نو اهواز (باوی)")
+        main_title_text = get_farsi_text("کانون تبلیغاتی فرهنگی هنری")
         text_width = p.stringWidth(main_title_text, "IranSans", 16)
         p.drawString((width - text_width) / 2, header_y_start, main_title_text)
 
@@ -363,15 +363,15 @@ def generate_factor_pdf(modeladmin, request, queryset):
         p.setFont("IranSans", 9)
 
         # اطلاعات تماس
-        p.drawString(20 * mm, footer_y_start, get_farsi_text("تلفن: 06135557742"))
+        p.drawString(20 * mm, footer_y_start, get_farsi_text("تلفن: 061111111"))
         p.drawString(20 * mm, footer_y_start - footer_line_spacing,
-                    get_farsi_text("شماره شبا: IR020170000000235263340001"))
+                    get_farsi_text("شماره شبا: IR00000000000000000000"))
 
-        card_number = convert_to_farsi_numbers("2425-5555-9915-6037")
+        card_number = convert_to_farsi_numbers("0000-0000-0000-0000")
         p.drawString(20 * mm, footer_y_start - 2 * footer_line_spacing,
                     get_farsi_text(f"شماره کارت: {card_number}"))
         p.drawString(20 * mm, footer_y_start - 3 * footer_line_spacing,
-                    get_farsi_text("بنام: مسلم باوی بحره"))
+                    get_farsi_text("بنام: شرکت ایده نو"))
 
         # نوار مشکی پایین صفحه
         p.setStrokeColor(colors.black)
