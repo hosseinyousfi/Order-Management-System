@@ -1,0 +1,11 @@
+{% extends "admin/change_list.html" %}
+{% load farsi_numbers %}
+
+{% block result_list %}
+    {{ block.super }}
+    <div class="results-summary" style="margin-top: 20px; text-align: right; font-weight: bold; direction: rtl;">
+    <p>مجموع هزینه‌ها: {{ summary.total_cost|farsi_comma_with_words }}</p>
+    <p>مجموع پرداختی‌ها: {{ summary.total_payment|farsi_comma_with_words }}</p>
+    <p>مجموع پرداخت باقی‌مانده: {{ summary.total_remaining|farsi_comma_with_words }}</p>
+</div>
+{% endblock %}
