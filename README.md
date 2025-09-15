@@ -26,10 +26,10 @@ This project is a desktop-like application for printing houses to manage their o
 
 ---
 
-## 📸 اسکرین‌شات‌ها (Screenshots)
+## Screenshots
 
 
-### نمایی از لیست سفارشات:
+### لیست سفارشات:
 
 
 ![لیست سفارشات](assets/order-list.png)
