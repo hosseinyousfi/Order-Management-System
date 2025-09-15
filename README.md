@@ -6,7 +6,7 @@ This project is a desktop-like application for printing houses to manage their o
 
 ---
 
-## ✨ قابلیت‌های کلیدی (Features)
+## Features
 
 - **ثبت سفارشات با جزئیات کامل:** امکان ثبت سفارش‌های جدید همراه با تمام جزئیات مورد نیاز.
 - **مدیریت سفارشات شرکتی:** اتصال سفارشات به شرکت‌ها و مدیریت متمرکز آن‌ها.
@@ -17,7 +17,7 @@ This project is a desktop-like application for printing houses to manage their o
 
 ---
 
-## 🛠️ تکنولوژی‌های استفاده شده (Tech Stack)
+## Tech Stack
 
 -   **Backend:** Django
 -   **Database:** SQLite
